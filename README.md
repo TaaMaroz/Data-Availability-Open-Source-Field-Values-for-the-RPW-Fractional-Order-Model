@@ -111,20 +111,20 @@ All sources are open-access or publicly accessible reports. Where a value is der
 
 ---
 
-## 6. Acoustic Sensor Detection
+### 6. Acoustic Sensor Detection
 
 | Parameter | Value | Source | Notes |
 |---|---|---|---|
-| Device names | Palmear, PalmProtect | Bob et al. (2025) — semanticscholar.org | Portable acoustic sensors |
-| Detection capability | Real-time with reasonable accuracy | Same source | Minimal labour |
+| Device names | Palmear, PalmProtect | Bob, El-Shafie & Ammar (2025), *Outlooks on Pest Management*  | Portable acoustic sensors |
+| Detection capability | Real-time with reasonable accuracy | Same source  | Minimal labour |
 | Deployment (UAE) | IoT acoustic sensors at 36 national hub sites | Global Agriculture (2025) — global-agriculture.com | Part of C4RPWC programme |
 | Remote sensing partner | Mohammed Bin Rashid Space Centre | Same source | |
 | Detection principle | Acoustic signals of larval feeding | IEEE (2024) — ieeexplore.ieee.org | Deep learning + IoT |
 
 **Primary source URLs:**
-- https://www.semanticscholar.org/paper/Evaluation-and-Validation-of-Acoustic-Sensors-for-Bob-El-Shafie
-- https://www.global-agriculture.com
-
+- **IngentaConnect (publisher page):** https://www.ingentaconnect.com/content/resinf/opm/2025/00000036/00000003/art00006 
+- **DOI:** https://doi.org/10.1564/v36_oct_02 
+- **Semantic Scholar (working link):** https://www.semanticscholar.org/paper/Evaluation-and-Validation-of-Acoustic-Sensors-for-Bob-El-Shafie/6b290e1a5ff94851cd659fda7a21d635d43b0d87 
 ---
 
 ## 7. Date Palm Population and Mortality

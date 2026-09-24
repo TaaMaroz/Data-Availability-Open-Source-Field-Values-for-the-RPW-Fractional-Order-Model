@@ -144,45 +144,8 @@ All sources are open-access or publicly accessible reports. Where a value is der
 
 ---
 
-## 8. Model-Derived Parameters (Not from Open Sources)
 
-The following values are **not** taken directly from open reports but are either:
-(a) derived algebraically from the above values, or
-(b) calibrated to match the target ℛ₀ values, or
-(c) treated as model constants.
-
-| Parameter | Value | Basis |
-|---|---|---|
-| κ (contact rate) | 1.3067×10⁻⁸ (weevil·day)⁻¹ | Derived from ℛ₀ via Eq. (k_from_R0) |
-| η (removal rate, 1994/95) | 0.04 day⁻¹ | Assumed baseline (~25-day removal lag) |
-| η (removal rate, 2025) | 0.12 day⁻¹ | Assumed IoT-aided (~8-day removal lag) |
-| σ (larval production, 1994/95) | 12 larvae·day⁻¹ | Assumed |
-| σ (larval production, 2025) | 8 larvae·day⁻¹ | Reduced by endotherapy |
-| μ_L (larval death, 1994/95) | 0.04 day⁻¹ | Assumed |
-| μ_L (larval death, 2025) | 0.08 day⁻¹ | Doubled by trunk injection |
-| ξ (maturation rate) | 0.10 day⁻¹ | ≈10-day pupal stage |
-| μ_A (adult mortality) | 0.20 day⁻¹ | ≈5-day adult lifespan |
-| φ (trap capture efficiency, 1994/95) | 0.005 (trap·day)⁻¹ | Assumed baseline |
-| φ (trap capture efficiency, 2025) | 0.03 (trap·day)⁻¹ | 6× increase from IoT network |
-| ω (trap activation, 1994/95) | 1×10⁻⁵ (weevil·day)⁻¹ | Assumed baseline |
-| ω (trap activation, 2025) | 5×10⁻⁵ (weevil·day)⁻¹ | 5× increase from denser network |
-| ν (trap decay) | 0.02 day⁻¹ | Pheromone bait longevity |
-| Λ (palm recruitment) | 800 palms·day⁻¹ | Assumed |
-| μ_p (palm natural mortality) | 8×10⁻³ day⁻¹ | ≈125-year lifespan |
-| α (fractional order, 1994/95) | 0.95 | Nelder–Mead fit |
-| α (fractional order, 2025) | 0.90 | Nelder–Mead fit |
-
----
-
-## 9. How to Cite This Data
-
-If you use this compilation, please cite the original sources listed above alongside the manuscript:
-
-> AbuHour, Y., BaniKhalid, M., Mahmoud, A., Azmi, A., & Khashan, M. M. (2025). *A Fractional-Order Model for Red Palm Weevil Infestation Dynamics with Global Stability Analysis and Field Validation*. [Manuscript submitted for publication].
-
----
-
-## 10. License and Attribution
+## 8. License and Attribution
 
 This compilation is provided for research and educational purposes. All original data remains the property of the cited sources. Where sources are open-access, links are provided. Users should verify all values against the original publications before reuse.
 

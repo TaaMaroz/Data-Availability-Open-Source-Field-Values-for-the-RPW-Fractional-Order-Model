@@ -1,7 +1,7 @@
 # Data Availability — Open-Source Field Values for the RPW Fractional-Order Model
 
 <p align="center">
-  <img src="Figure_1_map.tif"
+  <img src="Figure_1_map.png"
        alt="Reported palm and infestation values on the UAE map"
        width="100%">
 </p>

@@ -157,17 +157,6 @@ All sources are open-access or publicly accessible reports. Where a value is der
 - https://www.biosaline.org/sites/default/files/publicationsfile/study-rpw-icba-hammami-et-al-2024.pdf
 - https://openknowledge.fao.org
 
-**Scale note.** The model is not calibrated to absolute national palm counts through $\Lambda/\mu_p$. The ratio $\Lambda/\mu_p=100{,}000$ is the local carrying capacity of the modelled management unit, whereas the observed field totals (e.g. 1,093,499 susceptible palms in 1994/95) enter through the initial conditions and the calibration counts. Thus $\mu_p$ should be read as an effective background-loss/turnover rate in the model unit ($1/\mu_p\approx125$ days effective turnover), not as a 125-year biological palm lifespan.
-
----
-
-## 8. Notes on Values Not Used Directly
-
-- **Natural palm lifespan ≈125 years** is a biological fact from UAE conference (2019), but it is not used as $1/\mu_p$ in the model. The model's $\mu_p$ is an effective background-loss rate; see Section 7 scale note.
-- **Egg hatch time 2–5 days** (manuscript) vs. 3–6 days (Faleiro). The manuscript uses the Cabrera (2017) range, which is cited in the model.
-- **Infestation percentage 1.3%** (source) vs. **1.4%** (manuscript, rounded from 1.37%). The manuscript rounds up.
-- **Trap parameter variation in the suspension study.** In the three-phase IPM suspension scenario (manuscript Table 6), $\phi$ and $\omega$ are deliberately held at the 1994/95 values (0.005 and 10⁻⁵) and $T_{\max}=20{,}000$, rather than the 2025 values, to isolate the effect of the three parameters ($\eta,\sigma,\mu_L$) that enter $\mathcal{R}_0$. The $T_{\max}$ study in the manuscript varies $T_{\max}$ over 5,000–60,000, wider than the nominal 20,000 and 25,000 trap capacities.
-
 ---
 
 ## 9. License and Attribution

@@ -161,42 +161,7 @@ All sources are open-access or publicly accessible reports. Where a value is der
 
 ---
 
-## 8. Derived Model Parameters (Calibration)
-
-The following parameters are not directly measured but are derived from the sources above or estimated by Nelder–Mead fitting to the field series. They are documented here for reproducibility.
-
-| Parameter | Symbol | 1994/95 | 2025 | Unit | Basis |
-|---|---|---|---|---|---|
-| Susceptible palm recruitment | $\Lambda$ | 800 | 800 | palms·day⁻¹ | New planting + growth (UAE conference, 2019) |
-| Natural palm mortality / background loss | $\mu_p$ | $8\times10^{-3}$ | $8\times10^{-3}$ | day⁻¹ | $1/\mu_p\approx125$ days effective turnover; see scale note |
-| Infestation contact rate | $\kappa$ | $1.307\times10^{-8}$ | $1.307\times10^{-8}$ | (weevil·day)⁻¹ | Derived from $\mathcal{R}_0$ via Eq. (k_from_R0) |
-| Infested palm removal rate | $\eta$ | 0.04 | **0.12** | day⁻¹ | IoT acoustic; ≈8-day removal (ICARDA, 2025) |
-| Larval production per palm | $\sigma$ | 12 | **8** | larvae·day⁻¹ | Aretor endotherapy (Faleiro, 2006) |
-| Larva-to-adult maturation | $\xi$ | 0.10 | 0.10 | day⁻¹ | ≈10-day pupal stage |
-| Natural larval death rate | $\mu_L$ | 0.04 | **0.08** | day⁻¹ | Trunk injection effect |
-| Adult weevil mortality | $\mu_A$ | 0.20 | 0.20 | day⁻¹ | ≈5-day adult lifespan |
-| Trap capture efficiency | $\phi$ | 0.005 | **0.03** | (trap·day)⁻¹ | IoT-enhanced pheromone (FAO, 2025) |
-| Trap activation rate | $\omega$ | $1\times10^{-5}$ | $5\times10^{-5}$ | (weevil·day)⁻¹ | Denser automated network (MOCCAE, 2015) |
-| Trap decay rate | $\nu$ | 0.02 | 0.02 | day⁻¹ | Pheromone bait longevity |
-| Trap carrying capacity | $T_{\max}$ | 20,000 | **25,000** | traps | Logistic deployment bound |
-| Caputo fractional order | $\alpha$ | **0.90** | **1.00** | — | Nelder–Mead fit (best MSE) |
-
-Derived reproduction numbers:
-- $\mathcal{R}_0 = 1.1667$ (1994/95, endemic)
-- $\mathcal{R}_0 = 0.2269$ (2025, eradication)
-- $\mathcal{R}_W \approx 1.163$ (1994/95, coexistence)
-
-Fit metrics (12 monthly points per epoch):
-- 1994/95: $\alpha=0.90$, MSE $=38{,}349$, $R^2=0.99748$
-- 2025: $\alpha=1.00$, MSE $=64.5$, $R^2=0.99876$
-
-Initial conditions:
-- 1994/95: $S_{p,0}=1{,}093{,}499$, $I_{p,0}=15{,}224$, $L_{w,0}=50{,}000$, $A_{w,0}=52{,}000$, $T_{c,0}=500$
-- 2025: $S_{p,0}=1{,}093{,}499$ (implied), $I_{p,0}=702$, $L_{w,0}=2{,}106$, $A_{w,0}=702$, $T_{c,0}=5{,}000$
-
----
-
-## 9. Notes on Values Not Used Directly
+## 8. Notes on Values Not Used Directly
 
 - **Natural palm lifespan ≈125 years** is a biological fact from UAE conference (2019), but it is not used as $1/\mu_p$ in the model. The model's $\mu_p$ is an effective background-loss rate; see Section 7 scale note.
 - **Egg hatch time 2–5 days** (manuscript) vs. 3–6 days (Faleiro). The manuscript uses the Cabrera (2017) range, which is cited in the model.
@@ -205,7 +170,7 @@ Initial conditions:
 
 ---
 
-## 10. License and Attribution
+## 9. License and Attribution
 
 This compilation is provided for research and educational purposes. All original data remains the property of the cited sources. Where sources are open-access, links are provided. Users should verify all values against the original publications before reuse.
 

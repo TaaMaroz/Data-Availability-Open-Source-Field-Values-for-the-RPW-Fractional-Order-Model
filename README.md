@@ -1,5 +1,16 @@
 # Data Availability — Open-Source Field Values for the RPW Fractional-Order Model
 
+<p align="center">
+  <img src="Figure_1_map.tif"
+       alt="Reported palm and infestation values on the UAE map"
+       width="100%">
+</p>
+
+<p align="center">
+  <em>Figure 1.</em> Reported palm and infestation values across the
+  UAE (a), regional share of palms (b), and key reported values (c).
+</p>
+
 This document lists all numerical values used in the model that are traceable to publicly available online reports, field surveys, and peer-reviewed literature. It is provided to support the Data Availability Statement of the manuscript *"A Fractional-Order Model for Red Palm Weevil Infestation Dynamics with Global Stability Analysis and Field Validation"* and to enable independent verification and reuse.
 
 All sources are open-access or publicly accessible reports. Where a value is derived rather than directly reported, this is stated explicitly.
